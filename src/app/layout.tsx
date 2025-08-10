@@ -22,7 +22,12 @@ export default async function RootLayout({
   return (
     <html lang="en">
       <body>
-<div className="h-screen flex items-center justify-center">
+<div className="h-screen flex flex-col items-center justify-center">
+                  <img
+                alt="Corporate Potato logo"
+                 src="/nextjs-github-pages/assets/CorporatePotato_Logo_Horizontal_White.png"
+                className="block h-5 w-auto sm:h-4"
+              />
   <p className="text-4xl text-center">Coming soon</p>
 </div>
       </body>
