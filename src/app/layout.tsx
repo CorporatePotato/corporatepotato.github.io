@@ -22,10 +22,10 @@ export default async function RootLayout() {
         <div className="h-screen flex flex-col items-center justify-center">
           <Image
             alt="Corporate Potato logo"
-            src="/nextjs-github-pages/assets/CorporatePotato_Logo_Horizontal_White.png"
+            src="http://corporatepotato.github.io/assets/CorporatePotato_Logo_Horizontal_White.png"
             className="block h-5 w-auto sm:h-4"
-            width={300}
-            height={60} 
+            width={300} // adjust to your image's real width
+            height={60} // adjust to your image's real height
           />
           <p className="text-5xl text-center">Coming soon</p>
         </div>
