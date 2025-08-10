@@ -28,7 +28,7 @@ export default async function RootLayout({
                  src="/nextjs-github-pages/assets/CorporatePotato_Logo_Horizontal_White.png"
                 className="block h-5 w-auto sm:h-4"
               />
-  <p className="text-4xl text-center">Coming soon</p>
+  <p className="text-5xl text-center">Coming soon</p>
 </div>
       </body>
       <GoogleAnalytics gaId="G-GFP88W7X30" />
