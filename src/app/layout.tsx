@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import { GoogleAnalytics } from '@next/third-parties/google'
 import Image from 'next/image'
-import 'http://corporatepotato.github.io/globals.css'
+import 'https://corporatepotato.github.io/nextjs-github-pages/globals.css'
 
 export const metadata: Metadata = {
   title: {
@@ -22,7 +22,7 @@ export default async function RootLayout() {
         <div className="h-screen flex flex-col items-center justify-center">
           <Image
             alt="Corporate Potato logo"
-            src="http://corporatepotato.github.io/assets/CorporatePotato_Logo_Horizontal_White.png"
+  src="https://corporatepotato.github.io/nextjs-github-pages/CorporatePotato_Logo_Horizontal_White.png"
             className="block h-5 w-auto sm:h-4"
             width={300} // adjust to your image's real width
             height={60} // adjust to your image's real height
