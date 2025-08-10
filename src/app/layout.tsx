@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import { GoogleAnalytics } from '@next/third-parties/google'
 import Image from 'next/image'
-import './globals.css'
+import 'http://corporatepotato.github.io/globals.css'
 
 export const metadata: Metadata = {
   title: {
