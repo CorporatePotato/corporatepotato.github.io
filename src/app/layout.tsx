@@ -6,29 +6,42 @@ import './globals.css'
 export const metadata: Metadata = {
   title: {
     template: '%s | Press Kit',
-    default: 'UNANNOUNCED GAME',
+    default: 'Coming soon',
   },
-  description: 'UNANNOUNCED GAME',
+  description: 'Coming soon',
+  openGraph: {
+    type: 'website',
+    title: 'Corporate Potato',
+    description: 'Coming soon',
+    url: 'https://corporatepotato.com',
+  },
+  twitter: {
+    card: 'summary_large_image', 
+    site: '@CorporatePotato', 
+    creator: '@CorporatePotato',
+    title: 'Corporate Potato',
+    description:
+      'Coming soon',
+  },
   robots: {
-    index: false,
-    follow: false,
+    index: true,
+    follow: true,
   },
 }
 
-export default async function RootLayout() {
+export default async function RootLayout({
+  children
+}: Readonly<{
+  children: React.ReactNode
+}>
+) {
   return (
     <html lang="en">
       <body>
-        <div className="h-screen flex flex-col items-center justify-center">
-          <Image
-            alt="Corporate Potato logo"
-  src="/assets/CorporatePotato_Logo_Horizontal_White.png"
-            className="block h-5 w-auto sm:h-4"
-            width={300}
-            height={60}
-          />
-          <p className="text-5xl text-center">Coming soon</p>
-        </div>
+       
+
+        <main>{children}</main>
+
       </body>
       <GoogleAnalytics gaId="G-GFP88W7X30" />
     </html>
