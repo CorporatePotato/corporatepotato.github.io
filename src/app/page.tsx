@@ -1,6 +1,15 @@
+'use client'
+import { useEffect } from 'react'
+import { useRouter } from 'next/navigation'
 import Image from 'next/image'
 
 export default function StartPage() {
+  const router = useRouter()
+
+  useEffect(() => {
+    router.replace('/wellkeeper')
+  }, [router])
+
   return (
     <>
       <main className="page">

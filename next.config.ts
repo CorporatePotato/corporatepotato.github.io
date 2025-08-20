@@ -16,16 +16,6 @@ const nextConfig: NextConfig = {
    */
   images: {
     unoptimized: true,
-  },
-
-    redirects: async () => {
-    return [
-      {
-        source: '/',
-        destination: '/wellkeeper',
-        permanent: false
-      }
-    ]
   }
 };
 
