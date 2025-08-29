@@ -1,19 +1,27 @@
 'use client'
-import { useEffect } from 'react'
-import { useRouter } from 'next/navigation'
+
 import Image from 'next/image'
+import { useRouter } from 'next/navigation'
+import { useEffect } from 'react'
+
+import { AVAILABLE_LOCALES, DEFAULT_LOCALE } from '@/constants/language'
+import { SupportedLocale } from '@/types/language'
 
 export default function StartPage() {
   const router = useRouter()
 
   useEffect(() => {
-    router.replace('/wellkeeper')
+    const preferredLocale = (navigator.language.toLowerCase() as SupportedLocale) || DEFAULT_LOCALE
+
+    const locale = AVAILABLE_LOCALES.includes(preferredLocale) ? preferredLocale : DEFAULT_LOCALE
+
+    router.replace(`/${locale}/wellkeeper`)
   }, [router])
 
   return (
     <>
       <main className="page">
-        <div className="h-screen flex flex-col items-center justify-center">
+        <div className="flex h-screen flex-col items-center justify-center">
           <Image
             alt="Corporate Potato logo"
             src="/assets/CorporatePotato_Logo_Horizontal_White.png"

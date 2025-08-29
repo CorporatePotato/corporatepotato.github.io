@@ -1,6 +1,7 @@
 @import 'tailwindcss';
 
 @theme {
+  /* Maks custom colors */
   --color-white: #ffffff;
   --color-offWhite: #e1e7ea;
   --color-lightGrey: #7c8183;
@@ -11,7 +12,7 @@
 :root {
   --background: var(--color-offWhite);
   --foreground: var(--color-black);
-  --navbar-height: 3rem;
+  --navbar-height: 3.2rem;
 }
 
 @media (min-width: 640px) {
@@ -45,12 +46,11 @@
     @apply text-gray-400 hover:text-gray-300;
   }
 
-  .subtitle {
-    @apply text-gray-400;
-  }
+
 }
 
 img {
+  /* Sub pixel rendering fix, men funkar inte riktigt */
   -webkit-backface-visibility: hidden;
 }
 
@@ -61,6 +61,7 @@ html {
 
 body {
   @apply flex max-h-dvh min-h-dvh flex-col text-pretty antialiased;
+  padding-top: var(--navbar-height);
   background: var(--background);
   color: var(--foreground);
   font-family: var(--font-noto-sans);
@@ -71,7 +72,7 @@ main {
 }
 
 footer {
-  @apply bg-darkGrey mt-24 px-6 pt-20 pb-24 sm:mt-48 lg:px-8;
+  @apply bg-darkGrey mt-24 px-6 pt-14 sm:pt-20 pb-24 sm:mt-40 lg:px-8;
 }
 
 section {
@@ -86,11 +87,11 @@ section {
 }
 
 .contentWidth {
-  @apply mx-auto max-w-7xl px-2 sm:px-8;
+  @apply mx-auto max-w-7xl px-4 sm:px-8;
 }
 
 .halfContentWidth {
-  @apply mx-auto w-full px-2 sm:px-8 md:px-0;
+  @apply mx-auto w-full px-4 sm:px-8 md:px-0;
   @apply sm:w-2xl;
 }
 
@@ -112,7 +113,7 @@ h1 {
 }
 
 h2 {
-  @apply text-[1.15rem] leading-[1.5rem];
+  @apply text-[1.35rem] leading-[1.8rem];
   @apply sm:text-[1.65rem] sm:leading-[2.1rem];
 }
 
@@ -127,12 +128,12 @@ p {
 }
 
 .p1 {
-  @apply text-[1.2rem] leading-[1.95rem];
+  @apply text-[1.55rem] leading-[2.1rem];
   @apply sm:text-[1.7rem] sm:leading-[2.4rem];
 }
 
 .p2 {
-  @apply text-[1.2rem] leading-[1.45rem];
+  @apply text-[1.2rem] leading-[1.65rem];
   @apply sm:text-[1.2rem] sm:leading-[1.78rem];
 }
 
@@ -153,24 +154,23 @@ p {
 /* Drop down menu */
 .dropDown {
   @apply flex flex-col focus:outline-none;
-  @apply w-full py-1;
-  @apply bg-darkGrey;
+  @apply w-full;
   @apply sm:w-50 sm:-translate-x-1;
 }
 
 .dropDownItem {
   @apply block items-start text-left;
-  @apply bg-darkGrey mb-1 px-5 py-3;
-  border-bottom: 2px solid var(--color-lightGrey);
+  @apply bg-darkGrey px-5 pt-3 pb-4;
+  @apply border-lightGrey border-t-0 border-b-2;
 }
 
-.dropDownItem:last-child {
-  @apply border-b-0;
+.dropDownMask {
+  @apply bg-black/90 h-dvh md:h-0;
 }
 
 /* Links */
 .nav {
-  @apply text-[1.55rem] font-semibold tracking-wide hover:text-white sm:text-[1.1rem];
+  @apply text-[1.45rem] font-semibold tracking-wide hover:text-white sm:text-[1.1rem];
 }
 
 .mobileNav {
@@ -180,9 +180,7 @@ p {
 /* Buttons */
 
 .hamburgerButton {
-  @apply h-full w-auto min-w-9 focus:outline-none sm:min-w-8;
-  margin-top: 1px;
-  /* Ugly alignment fix */
+  @apply h-full w-12 min-w-9 focus:outline-none sm:min-w-8;
 }
 
 .button {
@@ -198,6 +196,10 @@ p {
 
 .hover {
   @apply underline underline-offset-5;
+}
+
+.footerLink:hover {
+  @apply sm:text-offWhite;
 }
 
 /* SECTIONS */
@@ -250,6 +252,7 @@ p {
 }
 
 /* Fact sheet*/
+/* Currently using ugly static grid row fix to get appropriate column count */
 .factSheet {
   @apply grid grid-flow-col grid-rows-9 gap-x-24 gap-y-2;
   @apply md:grid-cols-[max-content_1fr] md:grid-rows-5;

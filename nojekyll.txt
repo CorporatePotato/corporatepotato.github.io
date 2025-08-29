@@ -1,9 +1,0 @@
-Implementera Google Analytics events för att tracka user flow från t.ex. "Request Key" till "Submit"
-- Finns pre-defined events, typ "Link-click" osv. "GetKeyButtonPress"-event
-- https://developers.google.com/tag-platform/tag-manager/datalayer
-- Country of origin vill jag alltid ha med för att hitta problem med localization
-- Läs på om "funnels", realtidsdata
-- Man kan skapa dagliga rapporter per event och land
-- Man kan också sätta 404/error events https://www.practicalecommerce.com/using-google-analytics-to-detect-website-errors
-- Testa metadata twitter https://threadcreator.com/tools/twitter-card-validator https://www.bannerbear.com/tools/twitter-card-preview-tool/
-- Kör ett SEO pass och fixa alla OG-grejer och sånt, fipparn kan hjälpa

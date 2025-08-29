@@ -1,47 +1,25 @@
+// app/layout.tsx
 import type { Metadata } from 'next'
-import { GoogleAnalytics } from '@next/third-parties/google'
-import Image from 'next/image'
 import './globals.css'
 
-export const metadata: Metadata = {
-  title: {
-    template: '%s | Press Kit',
-    default: 'Coming soon',
-  },
-  description: 'Coming soon',
-  openGraph: {
-    type: 'website',
-    title: 'Corporate Potato',
-    description: 'Coming soon',
-    url: 'https://corporatepotato.com',
-  },
-  twitter: {
-    card: 'summary_large_image', 
-    site: '@CorporatePotato', 
-    creator: '@CorporatePotato',
-    title: 'Corporate Potato',
-    description:
-      'Coming soon',
-  },
-  robots: {
-    index: true,
-    follow: true,
-  },
-}
+import ClientTitleUpdater from '@/components/ClientTitleUpdater'
+import { DEFAULT_LOCALE } from '@/constants/language'
+import { generateMetadata as generateLocalizedMetadata } from '@/utils/metadata'
+import { GoogleAnalytics } from '@next/third-parties/google'
 
-export default async function RootLayout({
+// Generate metadata with default locale (English)
+// For GitHub Pages, we'll use English as default and let client-side handle localization
+// export const metadata: Metadata = generateLocalizedMetadata(DEFAULT_LOCALE)
+
+export default function RootLayout({
   children
 }: Readonly<{
   children: React.ReactNode
-}>
-) {
+}>) {
   return (
     <html lang="en">
       <body>
-       
-
-        <main>{children}</main>
-
+        {children}
       </body>
       <GoogleAnalytics gaId="G-GFP88W7X30" />
     </html>
