@@ -18,7 +18,7 @@ export default async function Page({ params }: { params: Promise<{ locale: Suppo
 
   return (
     <main className="page" lang={locale}>
-      <BannerImage />
+      <BannerImage locale={locale} />
       <Description />
       <Features locale={locale} />
       <Trailer locale={locale} />
