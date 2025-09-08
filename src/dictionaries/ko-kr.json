@@ -1,0 +1,111 @@
+{
+  "metadata_titleDefault": "GameName",
+  "metadata_titleTemplate": "Press Kit",
+  "metadata_description": "GameName is a game.",
+  "metadata_ogTitle": "GameName - a game by Corporate Potato",
+  "metadata_ogDescription": "GameName is a game.",
+  "metadata_twitterTitle": "GameName - a game by Corporate Potato",
+  "metadata_twitterDescription": "GameName is game.",
+  "nav_features": "Features",
+  "nav_trailer": "Trailer",
+  "nav_factSheet": "Fact Sheet",
+  "nav_mediaKit": "Media Kit",
+  "nav_about": "About",
+  "nav_requestKey": "Request Key",
+  "nav_contact": "Contact",
+  "description": "GameName is a game.",
+  "features_title": "Features",
+  "features_body": [
+    {
+      "title": "Feature 1",
+      "text": "Description."
+    },
+    {
+      "title": "Feature 2",
+      "text": "Description."
+    },
+    {
+      "title": "Feature 3",
+      "text": "Description."
+    },
+    {
+      "title": "Feature 4",
+      "text": "Description."
+    },
+    {
+      "title": "Feature 5",
+      "text": "Description."
+    }
+  ],
+  "trailer_title": "Trailer",
+  "trailer_copy_button": "Copy embed code",
+  "trailer_copied_button": "Copied!",
+  "fact_sheet_title": "Fact sheet",
+  "fact_sheet_request_key": "Request key",
+  "fact_sheet_items": [
+    {
+      "title": "Game title",
+      "content": "GameName"
+    },
+    {
+      "title": "Genre",
+      "content": "Genre"
+    },
+    {
+      "title": "Platforms",
+      "content": "PC"
+    },
+    {
+      "title": "Playtime",
+      "content": "Some hours"
+    },
+    {
+      "title": "Price",
+      "content": "TBD"
+    },
+    {
+      "title": "Release date",
+      "content": "TBD"
+    },
+    {
+      "title": "Developer",
+      "content": "Corporate Potato"
+    },
+    {
+      "title": "Publisher",
+      "content": "Corporate Potato"
+    },
+    {
+      "title": "Based in",
+      "content": "Somewhere"
+    }
+  ],
+  "media_kit_title": "Media kit",
+  "mediaKit_intro": "Screenshots, videos, logos, and more can be downloaded here. All assets are free to use for press coverage, previews, and content creation related to GameName. No attribution is required.",
+  "mediaKit_button": "Open media kit",
+  "contact_title": "Contact",
+  "contact_intro": "Please use this contact form for any inquiries such as key requests, interview requests, or any other questions.",
+  "contact_name": "Name",
+  "contact_name_placeholder": "Your name",
+  "contact_email": "Email",
+  "contact_email_placeholder": "you@example.com",
+  "contact_publication": "Publication / Channel",
+  "contact_publication_placeholder": "Your publication or channel",
+  "contact_message": "Message",
+  "contact_message_placeholder": "Your message",
+  "contact_send": "Send message",
+  "contact_sending": "Sending...",
+  "contact_success": "Thanks! Your message has been sent.",
+  "contact_error": "Oops! Something went wrong. Please try again.",
+  "about_title": "About",
+  "about_paragraphs": [
+    "Corporate Potato is an independent game developer."
+  ],
+  "socialMedia_names": {
+    "Instagram": "Instagram",
+    "TikTok": "TikTok",
+    "Reddit": "Reddit"
+  },
+  "footer_disclaimer": "The content and media on this site may be used for editorial and commercial purposes. Usage is permitted at your own risk and responsibility. Corporate Potato assumes no liability for third-party use.",
+  "footer_rights": "All rights reserved."
+}

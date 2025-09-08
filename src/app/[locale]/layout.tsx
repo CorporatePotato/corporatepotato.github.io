@@ -16,7 +16,7 @@ export default async function LocaleLayout({
 
   return (
     <DictionaryProvider dict={dict}>
-      <Header />
+
       {children}
       <Footer />
     </DictionaryProvider>
