@@ -1,11 +1,5 @@
-// lib/languageConstants.ts
-
 import { AVAILABLE_LOCALES, DEFAULT_LOCALE } from '@/constants/language'
-import { SupportedLocale } from '@/types/language'
-
-export function isValidLanguage(lang: SupportedLocale) {
-  return AVAILABLE_LOCALES.includes(lang)
-}
+import { supportedCountries, SupportedLocale } from '@/types/language'
 
 export function detectBrowserLanguage(): SupportedLocale {
   if (typeof navigator === 'undefined') return DEFAULT_LOCALE
@@ -35,4 +29,19 @@ export function detectBrowserLanguage(): SupportedLocale {
   }
 
   return DEFAULT_LOCALE
+}
+
+export function isValidLanguage(locale: SupportedLocale) {
+  return AVAILABLE_LOCALES.includes(locale)
+}
+
+export const isStringSupportedLocale = (locale: string): locale is SupportedLocale => {
+  return supportedCountries.some((country) => country.locale === locale)
+}
+
+export const getCurrentLocale = (pathname: string): SupportedLocale | null => {
+  const potentialLocale = pathname.split('/')[1]
+  return AVAILABLE_LOCALES.includes(potentialLocale as SupportedLocale)
+    ? (potentialLocale as SupportedLocale)
+    : null
 }

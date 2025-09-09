@@ -34,6 +34,13 @@ export const supportedCountries = [
     countryName: '台灣',
     countryCode: 'tw',
     threeLetterCode: 'TWN'
+  },
+  {
+    locale: 'ko-kr',
+    language: '한국어',
+    countryName: '대한민국',
+    countryCode: 'kr',
+    threeLetterCode: 'KOR'
   }
 ] as const satisfies readonly CountryInfo[]
 

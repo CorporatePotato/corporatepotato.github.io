@@ -13,9 +13,7 @@ export function useClickOutside(
       const target = event.target as Node
 
       const isInsideMain = ref.current?.contains(target)
-      const isInsideIgnored = ignoreRefs.some((ignoreRef) =>
-        ignoreRef.current?.contains(target)
-      )
+      const isInsideIgnored = ignoreRefs.some((ignoreRef) => ignoreRef.current?.contains(target))
 
       if (!isInsideMain && !isInsideIgnored) {
         onClose()

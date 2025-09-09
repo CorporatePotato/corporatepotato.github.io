@@ -24,7 +24,6 @@ const Contact = () => {
       if (messageIsEmpty) {
         switch (reason) {
           case 'request-key':
-            // TODO: Localize this message
             messageRef.current.value = 'Hi! I would like to request a Steam key for GameName.'
             break
           case 'contact':

@@ -15,7 +15,7 @@ const MediaKit = () => {
         <div className="flex flex-col items-center">
           <a
             className="button"
-            href="https://drive.google.com/drive/folders/ABC123"
+            href="https://drive.google.com/drive/folders/1jmv_Kc3nDDQZbIlxjegfLcT5IYYaT-1S"
             target="_blank"
           >
             {dict.mediaKit_button}

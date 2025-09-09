@@ -13,7 +13,7 @@ export const HamburgerMenu = () => {
 
   return (
     <Menu className="h-full lg:hidden" as="div">
-      {({ open, close }) => {
+      {({ close }) => {
         hamburgerMenuCloseRef.current = close
 
         return (

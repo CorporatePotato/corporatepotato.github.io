@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 /* eslint-disable no-console */
 
 import { DEFAULT_LOCALE } from '@/constants/language'
@@ -41,7 +42,8 @@ const clientDictionaries = {
   'en-us': () => import('@/dictionaries/en-us.json').then((m) => m.default),
   'ja-jp': () => import('@/dictionaries/ja-jp.json').then((m) => m.default),
   'zh-hans': () => import('@/dictionaries/zh-hans.json').then((m) => m.default),
-  'zh-hant': () => import('@/dictionaries/zh-hant.json').then((m) => m.default)
+  'zh-hant': () => import('@/dictionaries/zh-hant.json').then((m) => m.default),
+  'ko-kr': () => import('@/dictionaries/ko-kr.json').then((m) => m.default)
 }
 
 export async function loadTranslations(locale: SupportedLocale): Promise<Translations> {

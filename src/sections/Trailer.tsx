@@ -1,31 +1,29 @@
 'use client'
 
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 
 import Button from '@/components/Button'
 import { useDictionary } from '@/context/dictionary-context'
-import { SupportedLocale } from '@/types/language'
+import { usePageContext } from '@/context/page-context'
 
 const TRAILER_VIDEO_IDS: Record<string, string> = {
-  en: 'ABC123',
-  'zh-Hans': 'ABC123',
-  'zh-Hant': 'ABC123',
-  ja: 'ABC123',
-  default: 'ABC123'
+  en: '7XMdPQ5aW0s',
+  'zh-Hans': 'xyOzTgE4g0o',
+  'zh-Hant': 'dAMy1PvzrRc',
+  ja: 'oWPZJlE1uuA',
+  ko: '1NPZQ9KCGkY ',
+  default: '7XMdPQ5aW0s'
 }
 
 function getTrailerId(locale: string): string {
   return TRAILER_VIDEO_IDS[locale] || TRAILER_VIDEO_IDS.default
 }
 
-const Trailer = ({ locale }: { locale: SupportedLocale }) => {
-  const [copied, setCopied] = useState(false)
-  const [isClient, setIsClient] = useState(false)
-  const dict = useDictionary()
+const Trailer = () => {
+  const { locale } = usePageContext()
 
-  useEffect(() => {
-    setIsClient(true)
-  }, [])
+  const [copied, setCopied] = useState(false)
+  const dict = useDictionary()
 
   const trailerId = getTrailerId(locale)
   const embedUrl = `https://www.youtube.com/embed/${trailerId}?controls=1`

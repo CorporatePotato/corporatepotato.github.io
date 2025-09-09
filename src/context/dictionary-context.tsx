@@ -4,22 +4,21 @@ import { createContext, useContext } from 'react'
 
 import { Dictionary } from '@/types/dictionary'
 
-const DictionaryContext = createContext<Dictionary | null>(null)
+const DictionaryContext = createContext<Dictionary | undefined>(undefined)
 
-export function DictionaryProvider({
-  dict,
-  children
-}: {
+type DictionaryProviderProps = {
   dict: Dictionary
   children: React.ReactNode
-}) {
+}
+
+export function DictionaryProvider({ dict, children }: DictionaryProviderProps) {
   return <DictionaryContext.Provider value={dict}>{children}</DictionaryContext.Provider>
 }
 
 export function useDictionary() {
-  const ctx = useContext(DictionaryContext)
-  if (!ctx) {
+  const context = useContext(DictionaryContext)
+  if (!context) {
     throw new Error('useDictionary must be used inside DictionaryProvider')
   }
-  return ctx
+  return context
 }

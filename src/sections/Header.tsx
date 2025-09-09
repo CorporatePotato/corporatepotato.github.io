@@ -56,7 +56,7 @@ export default function Header() {
           </div>
 
           {/* Language menu */}
-          {/* <LanguageMenu /> */}
+          <LanguageMenu />
 
           {/* Hamburger */}
           <HamburgerMenu />

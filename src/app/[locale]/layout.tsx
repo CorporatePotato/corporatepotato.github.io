@@ -1,4 +1,5 @@
 import { DictionaryProvider } from '@/context/dictionary-context'
+import { PageContextProvider } from '@/context/page-context'
 import { getDictionary } from '@/lib/dictionaries'
 import Footer from '@/sections/Footer'
 import Header from '@/sections/Header'
@@ -15,10 +16,12 @@ export default async function LocaleLayout({
   const dict = await getDictionary(locale)
 
   return (
-    <DictionaryProvider dict={dict}>
+    <PageContextProvider locale={locale}>
+      <DictionaryProvider dict={dict}>
 
-      {children}
-      <Footer />
-    </DictionaryProvider>
+        {children}
+        <Footer />
+      </DictionaryProvider>
+    </PageContextProvider>
   )
 }

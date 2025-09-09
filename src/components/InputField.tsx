@@ -5,15 +5,15 @@ type InputFieldProps = {
   onClick?: () => void
 }
 
-const InputField = ({ children, onClick, type = 'secondary' }: PropsWithChildren<InputFieldProps>) => {
+const InputField = ({
+  children,
+  onClick,
+  type = 'secondary'
+}: PropsWithChildren<InputFieldProps>) => {
   const className = type === 'primary' ? 'input-field-primary' : 'input-field'
 
   return (
-    <button
-      type="button"
-      className={className}
-      onClick={onClick}
-    >
+    <button type="button" className={className} onClick={onClick}>
       {children}
     </button>
   )

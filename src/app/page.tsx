@@ -15,7 +15,7 @@ export default function StartPage() {
 
     const locale = AVAILABLE_LOCALES.includes(preferredLocale) ? preferredLocale : DEFAULT_LOCALE
 
-    router.replace(`/${locale}/wellkeeper`)
+    router.replace(`/${locale}/well-keeper`)
   }, [router])
 
   return (

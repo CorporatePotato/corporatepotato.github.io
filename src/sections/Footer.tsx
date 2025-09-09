@@ -7,13 +7,13 @@ export const navigation = {
     {
       name: 'Instagram',
       href: 'https://www.instagram.com/corporatepotato.gamedev/',
-      icon: (props: any) => (
+      icon: ({ className }: { className?: string }) => (
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"
           width="1em"
           height="1em"
-          {...props}
+          className={className}
         >
           <g fill="none" stroke="currentColor" strokeWidth="1.5">
             <path
@@ -30,13 +30,13 @@ export const navigation = {
     {
       name: 'TikTok',
       href: 'https://www.tiktok.com/@corporatepotato.gamedev',
-      icon: (props: any) => (
+      icon: ({ className }: { className?: string }) => (
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"
           width="1em"
           height="1em"
-          {...props}
+          className={className}
         >
           <g
             fill="none"
@@ -54,13 +54,13 @@ export const navigation = {
     {
       name: 'Reddit',
       href: 'https://www.reddit.com/user/CorporatePotato/',
-      icon: (props: any) => (
+      icon: ({ className }: { className?: string }) => (
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 256 256"
           width="1em"
           height="1em"
-          {...props}
+          className={className}
         >
           <path
             fill="currentColor"

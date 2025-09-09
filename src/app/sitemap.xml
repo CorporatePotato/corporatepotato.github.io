@@ -1,4 +1,4 @@
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
     <loc>https://corporatepotato.com</loc>
@@ -8,10 +8,15 @@
   </url>
 
   <url>
-    <loc>https://corporatepotato.com/wellkeeper</loc>
+    <loc>https://corporatepotato.com/en-us/well-keeper</loc>
     <lastmod>2025-08-11T13:37:00.021Z</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>1</priority>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en-us" href="https://corporatepotato.com/en-us/well-keeper"/>
+    <xhtml:link rel="alternate" hreflang="ko-kr" href="https://corporatepotato.com/ko-kr/well-keeper"/>
+    <xhtml:link rel="alternate" hreflang="ja-jp" href="https://corporatepotato.com/ja-jp/well-keeper"/>
+    <xhtml:link rel="alternate" hreflang="zh-hant" href="https://corporatepotato.com/zh-hant/well-keeper"/>
+    <xhtml:link rel="alternate" hreflang="zh-hans" href="https://corporatepotato.com/zh-hans/well-keeper"/>
   </url>
 
 </urlset>

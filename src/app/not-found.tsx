@@ -13,7 +13,7 @@ export default function NotFound() {
           <h2>Choose your language</h2>
           <div className="flex flex-col gap-4 text-lg">
             {supportedCountries.map((country, key) => (
-              <Link href={`/${country.locale}/wellkeeper`} key={key}>
+              <Link href={`/${country.locale}/well-keeper`} key={key}>
                 {country.language}
               </Link>
             ))}
