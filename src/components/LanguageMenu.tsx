@@ -5,7 +5,7 @@ import { useRef } from 'react'
 import { AVAILABLE_LOCALES, LANGUAGE_NAMES } from '@/constants/language'
 import { usePageContext } from '@/context/page-context'
 import { SupportedLocale } from '@/types/language'
-import { getCurrentLocale } from '@/utils/language'
+import { getCurrentLocale, storeLanguagePreference } from '@/utils/language'
 import { Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/react'
 
 export const LanguageMenu = () => {
@@ -28,6 +28,8 @@ export const LanguageMenu = () => {
     if (currentLocale === newLocale) {
       return
     }
+
+    storeLanguagePreference(newLocale)
 
     const segments = pathname.split('/')
     segments[1] = newLocale

@@ -2,27 +2,54 @@ import { AVAILABLE_LOCALES, DEFAULT_LOCALE } from '@/constants/language'
 import { supportedCountries, SupportedLocale } from '@/types/language'
 
 export function detectBrowserLanguage(): SupportedLocale {
-  if (typeof navigator === 'undefined') return DEFAULT_LOCALE
+  if (typeof window === 'undefined') return DEFAULT_LOCALE
 
-  const languages = (navigator.languages || [navigator.language]) as SupportedLocale[]
+  const storedPreference = getStoredLanguagePreference()
+  if (storedPreference && isStringSupportedLocale(storedPreference)) {
+    return storedPreference as SupportedLocale
+  }
+
+  const languages = navigator.languages || [navigator.language]
 
   for (const lang of languages) {
-    // Check exact match first
-    if (isValidLanguage(lang)) {
-      return lang
+    const normalizedLang = lang.toLowerCase()
+
+    if (isStringSupportedLocale(normalizedLang)) {
+      return normalizedLang as SupportedLocale
     }
 
-    // Check base language (e.g., 'zh' from 'zh-CN')
-    const baseLang = lang.split('-')[0] as SupportedLocale
-    if (isValidLanguage(baseLang)) {
-      return baseLang
+    const commonMappings: Record<string, SupportedLocale> = {
+      en: 'en-us',
+      'en-gb': 'en-us',
+      'en-au': 'en-us',
+      ko: 'ko-kr',
+      ja: 'ja-jp',
+      'zh-cn': 'zh-hans',
+      'zh-tw': 'zh-hant',
+      'zh-hk': 'zh-hant'
     }
 
-    // Handle Chinese variants specifically
-    if (lang.startsWith('zh')) {
-      if (lang.includes('tw') || lang.includes('HK') || lang.includes('Hant')) {
+    if (commonMappings[normalizedLang]) {
+      return commonMappings[normalizedLang]
+    }
+
+    const baseLang = normalizedLang.split('-')[0]
+    if (commonMappings[baseLang]) {
+      return commonMappings[baseLang]
+    }
+
+    if (normalizedLang.startsWith('zh')) {
+      if (
+        normalizedLang.includes('tw') ||
+        normalizedLang.includes('hk') ||
+        normalizedLang.includes('hant')
+      ) {
         return 'zh-hant'
-      } else if (lang.includes('CN') || lang.includes('Hans')) {
+      } else if (
+        normalizedLang.includes('cn') ||
+        normalizedLang.includes('hans') ||
+        normalizedLang === 'zh'
+      ) {
         return 'zh-hans'
       }
     }
@@ -44,4 +71,20 @@ export const getCurrentLocale = (pathname: string): SupportedLocale | null => {
   return AVAILABLE_LOCALES.includes(potentialLocale as SupportedLocale)
     ? (potentialLocale as SupportedLocale)
     : null
+}
+
+export const storeLanguagePreference = (locale: SupportedLocale): void => {
+  if (typeof window !== 'undefined') {
+    localStorage.setItem('preferred-locale', locale)
+    sessionStorage.setItem('preferred-locale', locale)
+  }
+}
+
+export const getStoredLanguagePreference = (): SupportedLocale | null => {
+  if (typeof window === 'undefined') return null
+
+  const stored =
+    localStorage.getItem('preferred-locale') || sessionStorage.getItem('preferred-locale')
+
+  return stored && isStringSupportedLocale(stored) ? (stored as SupportedLocale) : null
 }

@@ -1,111 +1,112 @@
 {
-  "metadata_titleDefault": "GameName",
-  "metadata_titleTemplate": "Press Kit",
-  "metadata_description": "GameName is a game.",
-  "metadata_ogTitle": "GameName - a game by Corporate Potato",
-  "metadata_ogDescription": "GameName is a game.",
-  "metadata_twitterTitle": "GameName - a game by Corporate Potato",
-  "metadata_twitterDescription": "GameName is game.",
-  "nav_features": "Features",
-  "nav_trailer": "Trailer",
-  "nav_factSheet": "Fact Sheet",
-  "nav_mediaKit": "Media Kit",
-  "nav_about": "About",
-  "nav_requestKey": "Request Key",
-  "nav_contact": "Contact",
-  "description": "GameName is a game.",
-  "features_title": "Features",
+  "metadata_titleDefault": "ウェルキーパー",
+  "metadata_titleTemplate": "プレスキット",
+  "metadata_description": "Well Keeper は、羽ばたくような操作感が特徴の弾幕ゲームです。ユニークな能力を強化し、圧倒的な力を得て、侵略者を倒しましょう。",
+  "metadata_ogTitle": "ウェルキーパー - Corporate Potato のゲーム",
+  "metadata_ogDescription": "Well Keeper は、羽ばたくような操作感が特徴の弾幕ゲームです。",
+  "metadata_twitterTitle": "ウェルキーパー - Corporate Potato のゲーム",
+  "metadata_twitterDescription": "Well Keeper は、羽ばたくような操作感が特徴の弾幕ゲームです。",
+  "metadata_images_alt": "ウェルキーパーのキービジュアルとロゴ",
+  "nav_features": "特徴",
+  "nav_trailer": "トレーラー",
+  "nav_factSheet": "概要",
+  "nav_mediaKit": "媒体",
+  "nav_about": "開発者",
+  "nav_requestKey": "キー申請",
+  "nav_contact": "連絡",
+  "description": "Well Keeper は、羽ばたくような操作感が特徴の弾幕ゲームです。ユニークな能力を強化し、圧倒的な力を得て、侵略者を倒しましょう。",
+  "features_title": "特徴",
   "features_body": [
     {
-      "title": "Feature 1",
-      "text": "Description."
+      "title": "独特なはためき操作",
+      "text": "この特徴的な操作方法をマスターしよう。小さなネズミを操作し、耳をはためいて飛行する。素早くはためくと上昇し、ゆっくりはためくと下降する。また、横方向へのダッシュで厄介な弾幕をよけることができる。簡単に覚えられるだけでなく、表現力豊かで熟練した動きを実現できる。"
     },
     {
-      "title": "Feature 2",
-      "text": "Description."
+      "title": "激しい弾幕地獄",
+      "text": "難易度が徐々に上がり、それぞれ特徴的な敵のウェーブと戦います。3つのステージにわたる合計30のウェーブで、緊張感あふれる戦闘を体験してください。すべての遭遇は挑戦的で、テンポよく激しい戦いが繰り広げられます。"
     },
     {
-      "title": "Feature 3",
-      "text": "Description."
+      "title": "多様なアップグレード",
+      "text": "倒した敵からコインを集めて、「願い」と呼ばれる24種類の特性やユニークな能力を強化しよう。新しい武器、経済効果、武器の特性変更、ステータス強化などが含まれ、満足感のある成長曲線を描くことができる。"
     },
     {
-      "title": "Feature 4",
-      "text": "Description."
+      "title": "壮大なボスバトル",
+      "text": "各ステージのラストに登場する巨大なボスを攻略しよう。複雑な攻撃パターンと複数のフェーズを持つこれらの長期戦は、通常の敵のウェーブを超えた特別な挑戦をもたらす。"
     },
     {
-      "title": "Feature 5",
-      "text": "Description."
+      "title": "強力なパワートリップ",
+      "text": "ゲームが始まる時、解放した「願い」の力を得て、序盤のウェーブを楽に撃退できる。敗北すると、コインとステージの進行は失うが、「願い」はそのまま維持され、成長の喜びを味わえる。"
     }
   ],
-  "trailer_title": "Trailer",
-  "trailer_copy_button": "Copy embed code",
-  "trailer_copied_button": "Copied!",
-  "fact_sheet_title": "Fact sheet",
-  "fact_sheet_request_key": "Request key",
+  "trailer_title": "トレーラー",
+  "trailer_copy_button": "埋め込みコードをコピー",
+  "trailer_copied_button": "コピーしました！",
+  "fact_sheet_title": "ファクトシート",
+  "fact_sheet_request_key": "キーをリクエスト",
   "fact_sheet_items": [
     {
-      "title": "Game title",
-      "content": "GameName"
+      "title": "ゲーム名",
+      "content": "Well Keeper"
     },
     {
-      "title": "Genre",
-      "content": "Genre"
+      "title": "ジャンル",
+      "content": "シューティング／弾幕"
     },
     {
-      "title": "Platforms",
-      "content": "PC"
+      "title": "対応機種",
+      "content": "Steam（PC・Steam Deck）"
     },
     {
-      "title": "Playtime",
-      "content": "Some hours"
+      "title": "プレイ時間",
+      "content": "4〜6時間"
     },
     {
-      "title": "Price",
-      "content": "TBD"
+      "title": "価格",
+      "content": "未定"
     },
     {
-      "title": "Release date",
-      "content": "TBD"
+      "title": "発売日",
+      "content": "未定"
     },
     {
-      "title": "Developer",
+      "title": "開発元",
       "content": "Corporate Potato"
     },
     {
-      "title": "Publisher",
+      "title": "販売元",
       "content": "Corporate Potato"
     },
     {
-      "title": "Based in",
-      "content": "Somewhere"
+      "title": "所在地",
+      "content": "スウェーデン・ストックホルム"
     }
   ],
-  "media_kit_title": "Media kit",
-  "mediaKit_intro": "Screenshots, videos, logos, and more can be downloaded here. All assets are free to use for press coverage, previews, and content creation related to GameName. No attribution is required.",
-  "mediaKit_button": "Open media kit",
-  "contact_title": "Contact",
-  "contact_intro": "Please use this contact form for any inquiries such as key requests, interview requests, or any other questions.",
-  "contact_name": "Name",
-  "contact_name_placeholder": "Your name",
-  "contact_email": "Email",
+  "media_kit_title": "メディアキット",
+  "mediaKit_intro": "スクリーンショット、動画、ロゴなどをこちらからダウンロードできます。これらの素材は、Well Keeper 関連の報道、プレビュー、コンテンツ制作に自由に利用できます。クレジット表記は不要です。",
+  "mediaKit_button": "メディアキットを開く",
+  "contact_title": "お問い合わせ",
+  "contact_intro": "キーリクエスト、取材依頼、その他のお問い合わせはこちらのフォームをご利用ください。",
+  "contact_name": "お名前",
+  "contact_name_placeholder": "あなたの名前",
+  "contact_email": "メールアドレス",
   "contact_email_placeholder": "you@example.com",
-  "contact_publication": "Publication / Channel",
-  "contact_publication_placeholder": "Your publication or channel",
-  "contact_message": "Message",
-  "contact_message_placeholder": "Your message",
-  "contact_send": "Send message",
-  "contact_sending": "Sending...",
-  "contact_success": "Thanks! Your message has been sent.",
-  "contact_error": "Oops! Something went wrong. Please try again.",
-  "about_title": "About",
+  "contact_publication": "メディア／チャンネル名",
+  "contact_publication_placeholder": "あなたのメディア名またはチャンネル名",
+  "contact_message": "メッセージ",
+  "contact_message_placeholder": "お問い合わせ内容をご記入ください",
+  "contact_send": "送信する",
+  "contact_sending": "送信中...",
+  "contact_success": "ありがとうございます！メッセージは送信されました。",
+  "contact_error": "送信に失敗しました。もう一度お試しください。",
+  "about_title": "開発者について",
   "about_paragraphs": [
-    "Corporate Potato is an independent game developer."
+    "Corporate Potato は、創造的なアートのバックグラウンドを持つスウェーデンのインディーゲーム開発者です。Fast Travel Games や Might & Delight などのスタジオでさまざまな役割を経験しています。"
   ],
   "socialMedia_names": {
     "Instagram": "Instagram",
     "TikTok": "TikTok",
     "Reddit": "Reddit"
   },
-  "footer_disclaimer": "The content and media on this site may be used for editorial and commercial purposes. Usage is permitted at your own risk and responsibility. Corporate Potato assumes no liability for third-party use.",
-  "footer_rights": "All rights reserved."
+  "footer_disclaimer": "本サイトの内容および素材は、編集・商用利用が可能ですが、使用に関するリスクおよび責任はご自身でご負担ください。Corporate Potato は第三者による使用について一切の責任を負いません。",
+  "footer_rights": "全著作権所有"
 }

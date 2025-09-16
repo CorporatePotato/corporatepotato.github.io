@@ -1,6 +1,7 @@
 'use client'
 
 import { useDictionary } from '@/context/dictionary-context'
+import { handlePrefillClick } from '@/utils/navigation'
 
 const FactSheet = () => {
   const dict = useDictionary()
@@ -30,9 +31,15 @@ const FactSheet = () => {
       </div>
       <div className="flex flex-col items-center">
         {/* TODO: Should this not also work as the 'Request key' link in the burger menu? */}
-        <a className="button mt-2" href="#contact">
+{/*         <a className="button mt-2" href="#contact">
           {dict.fact_sheet_request_key}
-        </a>
+        </a> */}
+               <button
+          onClick={() => handlePrefillClick('request-key')}
+          className="button mt-2"
+        >
+          {dict.fact_sheet_request_key}
+        </button>
       </div>
     </section>
   )

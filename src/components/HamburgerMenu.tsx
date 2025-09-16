@@ -19,7 +19,7 @@ export const HamburgerMenu = () => {
         return (
           <>
             {/* Button */}
-            <MenuButton className="nav hamburgerButton">
+            <MenuButton className="nav hamburgerButton" aria-label="Hamburger menu button">
               {({ open }) => {
                 const icon = open ? (
                   <XMarkIcon aria-hidden="true" className={`menu-icon block`} />

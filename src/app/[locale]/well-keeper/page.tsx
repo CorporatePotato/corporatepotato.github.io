@@ -1,7 +1,7 @@
 import { Metadata } from 'next'
 
 import { AVAILABLE_LOCALES } from '@/constants/language'
-import { getDictionary } from '@/lib/dictionaries'
+import { generateProjectMetadata } from '@/lib/metadata'
 import About from '@/sections/About'
 import BannerImage from '@/sections/BannerImage'
 import Contact from '@/sections/Contact'
@@ -22,60 +22,8 @@ export function generateStaticParams() {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params
-
-  const dict = await getDictionary(locale)
-
-  const titleDefault = dict.metadata_titleDefault || 'Coming soon'
-  const titleFallback = `${titleDefault} - Corporate Potato`
-  const description =
-    dict.metadata_description ||
-    dict.description ||
-    "Coming soon"
-
-  const ogTitle = dict.metadata_ogTitle || titleFallback
-  const ogDescription = dict.metadata_ogDescription || description
-
-  const twitterTitle = dict.metadata_twitterTitle || titleFallback
-  const twitterDescription = dict.metadata_twitterDescription || description
-
-  return {
-    title: titleDefault,
-    description,
-    applicationName: 'Coming soon',
-    openGraph: {
-      // TODO: Maybe change this value?
-      type: 'website',
-      siteName: 'Corporate Potato',
-      title: ogTitle,
-      description: ogDescription,
-      // TODO: Maybe remove this line?
-      url: `/${locale}/well-keeper`,
-      // url: 'https://corporatepotato.com',
-      images: [
-        {
-          url: `/assets/meta/og/og-${locale}.png`,
-          width: 1200,
-          height: 630,
-          // TODO: Maybe add this to the dictionary? Also it should describe the image not the game
-          alt: 'Coming soon'
-        }
-      ]
-    },
-    twitter: {
-      card: 'summary_large_image',
-      site: '@CorporatePotato',
-      creator: '@CorporatePotato',
-      title: twitterTitle,
-      description: twitterDescription,
-      images: [
-        {
-          url: `/assets/meta/twitter/twitter-${locale}.png`,
-          // TODO: Maybe add this to the dictionary? Also it should describe the image not the game
-          alt: 'Coming soon'
-        }
-      ]
-    }
-  }
+  
+  return await generateProjectMetadata(locale)
 }
 
 export default async function Page({ params }: { params: Promise<{ locale: SupportedLocale }> }) {
@@ -83,9 +31,14 @@ export default async function Page({ params }: { params: Promise<{ locale: Suppo
 
   return (
     <main className="page" lang={locale}>
- <div className="h-128 flex flex-col items-center justify-center">
-          <p className="text-5xl text-center">Coming soon</p>
-        </div>
+      <BannerImage />
+      <Description />
+      <Features />
+      <Trailer />
+      <FactSheet />
+      <MediaKit />
+      <Contact />
+      <About />
     </main>
   )
 }

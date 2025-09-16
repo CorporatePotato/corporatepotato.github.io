@@ -24,7 +24,7 @@ const Contact = () => {
       if (messageIsEmpty) {
         switch (reason) {
           case 'request-key':
-            messageRef.current.value = 'Hi! I would like to request a Steam key for GameName.'
+            messageRef.current.value = 'Hi! I would like to request a Steam key for Well Keeper.'
             break
           case 'contact':
             messageRef.current.value = ''

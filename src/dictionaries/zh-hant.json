@@ -1,111 +1,112 @@
 {
-  "metadata_titleDefault": "GameName",
-  "metadata_titleTemplate": "Press Kit",
-  "metadata_description": "GameName is a game.",
-  "metadata_ogTitle": "GameName - a game by Corporate Potato",
-  "metadata_ogDescription": "GameName is a game.",
-  "metadata_twitterTitle": "GameName - a game by Corporate Potato",
-  "metadata_twitterDescription": "GameName is game.",
-  "nav_features": "Features",
-  "nav_trailer": "Trailer",
-  "nav_factSheet": "Fact Sheet",
-  "nav_mediaKit": "Media Kit",
-  "nav_about": "About",
-  "nav_requestKey": "Request Key",
-  "nav_contact": "Contact",
-  "description": "GameName is a game.",
-  "features_title": "Features",
+  "metadata_titleDefault": "淵井之佑",
+  "metadata_titleTemplate": "新聞資料包",
+  "metadata_description": "Well Keeper 是一款彈幕射擊遊戲，採用飛翔擺動的操作方式。玩家可以升級獨特的能力，變得強大無比，擊退入侵者。",
+  "metadata_ogTitle": "淵井之佑 - Corporate Potato 出品",
+  "metadata_ogDescription": "Well Keeper 是一款彈幕射擊遊戲，採用飛翔擺動的操作方式。",
+  "metadata_twitterTitle": "淵井之佑 - Corporate Potato 出品",
+  "metadata_twitterDescription": "Well Keeper 是一款彈幕射擊遊戲，採用飛翔擺動的操作方式。",
+  "metadata_images_alt": "淵井之佑關鍵美術與標誌",
+  "nav_features": "特色",
+  "nav_trailer": "預告片",
+  "nav_factSheet": "資料表",
+  "nav_mediaKit": "媒體包",
+  "nav_about": "關於我們",
+  "nav_requestKey": "申請啟動碼",
+  "nav_contact": "聯絡",
+  "description": "Well Keeper 是一款彈幕射擊遊戲，採用飛翔擺動的操作方式。玩家可以升級獨特的能力，變得強大無比，擊退入侵者。",
+  "features_title": "特色",
   "features_body": [
     {
-      "title": "Feature 1",
-      "text": "Description."
+      "title": "獨特的扇動式移動",
+      "text": "掌握這個獨具特色的操作方式吧。你操控一隻小飛鼠，透過左右扇動耳朵來飛行——快速扇動可以上升，緩慢扇動則會下降。你還可以側向衝刺，躲避棘手的彈幕。這個優雅的操作機制容易上手，卻能展現豐富且靈活的操作技巧。"
     },
     {
-      "title": "Feature 2",
-      "text": "Description."
+      "title": "驚險刺激的彈幕地獄",
+      "text": "你將面對難度逐漸提升、各具特色的敵人波次。在三個關卡的30個波次中，體驗緊張刺激且充滿變化的戰鬥。每一次遭遇都極具挑戰性、節奏激烈。"
     },
     {
-      "title": "Feature 3",
-      "text": "Description."
+      "title": "豐富的升級系統",
+      "text": "擊敗敵人後可收集銀幣，強化多達 24 種被稱為「願望」的特殊能力。願望包含強力的新武器、經濟收益、武器強化、屬性提升等多種效果，構築出令人滿足的成長曲線。"
     },
     {
-      "title": "Feature 4",
-      "text": "Description."
+      "title": "史詩級的Boss戰",
+      "text": "征服每關結尾的巨大Boss吧！由於擁有複雜的攻擊模式和多個階段的戰鬥，這些持久戰將帶來超越普通敵群的獨特挑戰。"
     },
     {
-      "title": "Feature 5",
-      "text": "Description."
+      "title": "強力的成長旅程",
+      "text": "每次遊戲開始時，你都會獲得已解鎖的「願望」加持，輕鬆擊退前幾波敵人。失敗時，你會失去銀幣和關卡進度，但「願望」依舊保留，讓每一次嘗試都能體驗到指數級成長的快感。"
     }
   ],
-  "trailer_title": "Trailer",
-  "trailer_copy_button": "Copy embed code",
-  "trailer_copied_button": "Copied!",
-  "fact_sheet_title": "Fact sheet",
-  "fact_sheet_request_key": "Request key",
+  "trailer_title": "預告片",
+  "trailer_copy_button": "複製嵌入代碼",
+  "trailer_copied_button": "已複製！",
+  "fact_sheet_title": "資料表",
+  "fact_sheet_request_key": "申請啟動碼",
   "fact_sheet_items": [
     {
-      "title": "Game title",
-      "content": "GameName"
+      "title": "遊戲名稱",
+      "content": "渊井之佑"
     },
     {
-      "title": "Genre",
-      "content": "Genre"
+      "title": "遊戲類型",
+      "content": "彈幕射擊 / Shoot Em Up"
     },
     {
-      "title": "Platforms",
-      "content": "PC"
+      "title": "游戏平台",
+      "content": "Steam（PC 與 Steam Deck）"
     },
     {
-      "title": "Playtime",
-      "content": "Some hours"
+      "title": "遊戲時長",
+      "content": "4-6 小時"
     },
     {
-      "title": "Price",
-      "content": "TBD"
+      "title": "價格",
+      "content": "待定"
     },
     {
-      "title": "Release date",
-      "content": "TBD"
+      "title": "發行日期",
+      "content": "待定"
     },
     {
-      "title": "Developer",
+      "title": "開發者",
       "content": "Corporate Potato"
     },
     {
-      "title": "Publisher",
+      "title": "發行商",
       "content": "Corporate Potato"
     },
     {
-      "title": "Based in",
-      "content": "Somewhere"
+      "title": "所在地",
+      "content": "瑞典，斯德哥爾摩"
     }
   ],
-  "media_kit_title": "Media kit",
-  "mediaKit_intro": "Screenshots, videos, logos, and more can be downloaded here. All assets are free to use for press coverage, previews, and content creation related to GameName. No attribution is required.",
-  "mediaKit_button": "Open media kit",
-  "contact_title": "Contact",
-  "contact_intro": "Please use this contact form for any inquiries such as key requests, interview requests, or any other questions.",
-  "contact_name": "Name",
-  "contact_name_placeholder": "Your name",
-  "contact_email": "Email",
+  "media_kit_title": "媒體包",
+  "mediaKit_intro": "可在此下載與 Well Keeper 相關的截圖、影片、標誌等素材。所有資源均可免費用於新聞報導、預覽及內容創作，無需署名。",
+  "mediaKit_button": "打開媒體包",
+  "contact_title": "聯絡",
+  "contact_intro": "如需申請啟動碼、採訪請求或有其他問題，請使用此聯絡表。",
+  "contact_name": "姓名",
+  "contact_name_placeholder": "你的名字",
+  "contact_email": "電子郵件",
   "contact_email_placeholder": "you@example.com",
-  "contact_publication": "Publication / Channel",
-  "contact_publication_placeholder": "Your publication or channel",
-  "contact_message": "Message",
-  "contact_message_placeholder": "Your message",
-  "contact_send": "Send message",
-  "contact_sending": "Sending...",
-  "contact_success": "Thanks! Your message has been sent.",
-  "contact_error": "Oops! Something went wrong. Please try again.",
-  "about_title": "About",
+  "contact_publication": "媒體 / 頻道",
+  "contact_publication_placeholder": "您的媒體或頻道名稱",
+  "contact_message": "留言",
+  "contact_message_placeholder": "您的留言內容",
+  "contact_send": "發送留言",
+  "contact_sending": "發送中...",
+  "contact_success": "感謝！您的留言已發送。",
+  "contact_error": "哎呀！發送失敗，請重試。",
+  "about_title": "關於我們",
   "about_paragraphs": [
-    "Corporate Potato is an independent game developer."
+    "Corporate Potato 是一家位於瑞典的獨立遊戲開發者，擁有創意藝術背景。他曾在 Fast Travel Games 和 Might & Delight 等工作室擔任過不同角色。"
   ],
   "socialMedia_names": {
     "Instagram": "Instagram",
-    "TikTok": "TikTok",
+    "TikTok": "抖音 (TikTok)",
     "Reddit": "Reddit"
   },
-  "footer_disclaimer": "The content and media on this site may be used for editorial and commercial purposes. Usage is permitted at your own risk and responsibility. Corporate Potato assumes no liability for third-party use.",
-  "footer_rights": "All rights reserved."
+  "footer_disclaimer": "本站內容及素材可用於編輯和商業用途，使用風險與責任由使用者自行承擔。Corporate Potato 不對第三方使用承擔任何責任。",
+  "footer_rights": "版權所有。"
 }

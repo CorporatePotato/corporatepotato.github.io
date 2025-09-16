@@ -1,11 +1,12 @@
 {
-  "metadata_titleDefault": "GameName",
+  "metadata_titleDefault": "Well Keeper",
   "metadata_titleTemplate": "Press Kit",
-  "metadata_description": "GameName is a game.",
-  "metadata_ogTitle": "GameName - a game by Corporate Potato",
-  "metadata_ogDescription": "GameName is a game.",
-  "metadata_twitterTitle": "GameName - a game by Corporate Potato",
-  "metadata_twitterDescription": "GameName is game.",
+  "metadata_description": "Well Keeper is a Bullet Hell Shoot `Em Up game where you move by flapping. Battle waves of enemies, upgrade unique and unexpected abilities and become immensely powerful.",
+  "metadata_ogTitle": "Well Keeper - a game by Corporate Potato",
+  "metadata_ogDescription": "Well Keeper is a Bullet Hell Shoot `Em Up game where you move by flapping.",
+  "metadata_twitterTitle": "Well Keeper - a game by Corporate Potato",
+  "metadata_twitterDescription": "Well Keeper is a Bullet Hell Shoot `Em Up game where you move by flapping.",
+  "metadata_images_alt": "Well Keeper key art and logo",
   "nav_features": "Features",
   "nav_trailer": "Trailer",
   "nav_factSheet": "Fact Sheet",
@@ -13,28 +14,28 @@
   "nav_about": "About",
   "nav_requestKey": "Request Key",
   "nav_contact": "Contact",
-  "description": "GameName is a game.",
+  "description": "Well Keeper is a Bullet Hell Shoot `Em Up where you move by flapping. Battle waves of enemies, upgrade unique and unexpected abilities and become immensely powerful.",
   "features_title": "Features",
   "features_body": [
     {
-      "title": "Feature 1",
-      "text": "Description."
+      "title": "Distinctive Flap-Style Movement",
+      "text": "Master movement in this unique twist on the genre. You control a mouse that flaps its ears left or right — flap rapidly to gain height or slowly to descend. You can also dash sideways to dodge tricky projectiles. This elegant control scheme is easy to learn, yet offers expressive, skillful movement."
     },
     {
-      "title": "Feature 2",
-      "text": "Description."
+      "title": "Intense Bullet Hell",
+      "text": "Fight increasingly difficult enemy waves, each unique and with a different attack. You’ll be on the edge of your seat through 30 distinct waves across three levels. Every encounter is tense, unpredictable, and packed with action."
     },
     {
-      "title": "Feature 3",
-      "text": "Description."
+      "title": "A Variety of Upgrades",
+      "text": "Collect coins from defeated enemies to upgrade 24 different properties and unique abilities called “Wishes.” These include powerful new weapons, economic effects, weapon modifiers, stat boosts, and more, fueling a strong progression curve."
     },
     {
-      "title": "Feature 4",
-      "text": "Description."
+      "title": "Epic Boss Battles",
+      "text": "Conquer huge bosses at the end of each level. With layered attack patterns and multiple phases, these extended battles deliver a distinct challenge beyond regular enemy waves."
     },
     {
-      "title": "Feature 5",
-      "text": "Description."
+      "title": "Immense Power Trip",
+      "text": "Dominate early waves as you begin each run empowered by your acquired Wishes. When defeated, you lose your coins and level progress — but keep your Wishes — creating a thrilling sense of exponential power that builds with every attempt."
     }
   ],
   "trailer_title": "Trailer",
@@ -45,19 +46,19 @@
   "fact_sheet_items": [
     {
       "title": "Game title",
-      "content": "GameName"
+      "content": "Well Keeper"
     },
     {
       "title": "Genre",
-      "content": "Genre"
+      "content": "Shoot Em Up / Bullet Hell"
     },
     {
       "title": "Platforms",
-      "content": "PC"
+      "content": "Steam (PC & Steam Deck)"
     },
     {
       "title": "Playtime",
-      "content": "Some hours"
+      "content": "4-6 hours"
     },
     {
       "title": "Price",
@@ -77,11 +78,11 @@
     },
     {
       "title": "Based in",
-      "content": "Somewhere"
+      "content": "Stockholm, Sweden"
     }
   ],
   "media_kit_title": "Media kit",
-  "mediaKit_intro": "Screenshots, videos, logos, and more can be downloaded here. All assets are free to use for press coverage, previews, and content creation related to GameName. No attribution is required.",
+  "mediaKit_intro": "Screenshots, videos, logos, and more can be downloaded here. All assets are free to use for press coverage, previews, and content creation related to Well Keeper. No attribution is required.",
   "mediaKit_button": "Open media kit",
   "contact_title": "Contact",
   "contact_intro": "Please use this contact form for any inquiries such as key requests, interview requests, or any other questions.",
@@ -99,7 +100,7 @@
   "contact_error": "Oops! Something went wrong. Please try again.",
   "about_title": "About",
   "about_paragraphs": [
-    "Corporate Potato is an independent game developer."
+    "Corporate Potato is an independent game developer based in Sweden with a background in creative arts. He has worked in the games industry in various roles for game studios such as Fast Travel Games and Might & Delight."
   ],
   "socialMedia_names": {
     "Instagram": "Instagram",

@@ -18,7 +18,7 @@ export default async function LocaleLayout({
   return (
     <PageContextProvider locale={locale}>
       <DictionaryProvider dict={dict}>
-
+        <Header />
         {children}
         <Footer />
       </DictionaryProvider>

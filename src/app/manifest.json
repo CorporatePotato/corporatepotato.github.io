@@ -1,18 +1,32 @@
 {
-    "name": "My Awesome Site",
-    "short_name": "AwesomeSite",
-    "description": "A brief description of my awesome site.",
-    "start_url": "/",
-    "display": "standalone",
-    "background_color": "#ffffff",
-    "theme_color": "#4a90e2",
-    "orientation": "portrait",
-    "scope": "/",
-    "icons": [
-        {
-            "src": "/favicon.ico",
-            "sizes": "any",
-            "type": "image/x-icon"
-        }
-    ]
+  "name": "Corporate Potato | Well Keeper",
+  "short_name": "Well Keeper",
+  "description": "Well Keeper is a Bullet Hell Shoot 'Em Up game where you move by flapping. Battle waves of enemies, upgrade unique and unexpected abilities, and become immensely powerful.",
+  "start_url": "/wellkeeper",
+  "scope": "/wellkeeper",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#ffffff",
+  "orientation": "portrait",
+  "lang": "en",
+  "dir": "ltr",
+  "icons": [
+    {
+      "src": "/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/favicon.ico",
+      "sizes": "any",
+      "type": "image/x-icon"
+    }
+  ]
 }
