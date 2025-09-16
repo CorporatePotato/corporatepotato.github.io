@@ -18,10 +18,9 @@ export default function StartPageClient() {
   }, [router])
 
   return (
-    <>
-      <main className="page">
+    <main className="page">
       <div className="flex h-screen flex-col items-center justify-center">
-        <div className="relative w-1/2 md:w-[200px] aspect-[400/160] mb-60">
+        <div className="relative mb-60 aspect-[400/160] w-1/2 md:w-[200px]">
           <Image
             alt="Corporate Potato logo"
             src="/assets/CorporatePotato_Logo_Horizontal_White.png"
@@ -30,7 +29,6 @@ export default function StartPageClient() {
           />
         </div>
       </div>
-      </main>
-    </>
+    </main>
   )
 }
