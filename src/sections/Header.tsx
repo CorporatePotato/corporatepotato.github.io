@@ -1,6 +1,7 @@
 'use client'
 
 import Link from 'next/link'
+import Image from 'next/image'
 
 import { HamburgerMenu } from '@/components/HamburgerMenu'
 import { LanguageMenu } from '@/components/LanguageMenu'
@@ -17,10 +18,13 @@ export default function Header() {
           {/* Company logo */}
           <div className="mt-1 flex shrink-0 items-center">
             <Link href="/">
-              <img
+              <Image
                 alt="Corporate Potato logo"
                 src="/assets/CorporatePotato_Logo_Horizontal_White.png"
-                className="block h-auto w-42 sm:w-36"
+                width={168} 
+                height={48} 
+                className="h-auto w-42 sm:w-36"
+                priority
               />
             </Link>
           </div>

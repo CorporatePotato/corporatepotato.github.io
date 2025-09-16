@@ -36,7 +36,7 @@ const FeatureVideo = ({ index, languageName }: FeatureVideoProps) => {
           if (entry.isIntersecting) {
             // Video is in view - play it
             video.play().catch((error) => {
-              console.log('Video play failed:', error)
+              console.error('Video play failed:', error)
             })
           } else {
             // Video is out of view - pause it
@@ -88,9 +88,8 @@ const Features = () => {
         {items.map((item, index: number) => (
           <div key={item.title} className={`${index % 2 === 0 ? 'bg-darkGrey' : ''} w-full`}>
             <div
-              className={`flex flex-col md:flex-row ${
-                index % 2 !== 0 ? 'md:flex-row-reverse' : ''
-              } contentWidth mx-auto items-center gap-6 pt-4 pb-22 sm:gap-8 sm:py-22`}
+              className={`flex flex-col md:flex-row ${index % 2 !== 0 ? 'md:flex-row-reverse' : ''
+                } contentWidth mx-auto items-center gap-6 pt-4 pb-22 sm:gap-8 sm:py-22`}
             >
               {/* Video Column */}
               <div className="md:w-63/100">
