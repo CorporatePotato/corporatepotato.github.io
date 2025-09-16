@@ -20,15 +20,16 @@ export default function StartPageClient() {
   return (
     <>
       <main className="page">
-        <div className="flex h-screen flex-col items-center justify-center">
+      <div className="flex h-screen flex-col items-center justify-center">
+        <div className="relative w-1/2 md:w-[200px] aspect-[400/160] mb-60">
           <Image
             alt="Corporate Potato logo"
             src="/assets/CorporatePotato_Logo_Horizontal_White.png"
-            className="block h-12 w-auto sm:h-8"
-            width={300}
-            height={60}
+            fill
+            className="object-contain"
           />
         </div>
+      </div>
       </main>
     </>
   )
