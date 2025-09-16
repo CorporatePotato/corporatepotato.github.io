@@ -21,6 +21,12 @@ export const metadata: Metadata = {
     index: true,
     follow: true
   },
+  verification: {
+    yandex: '187c8a8c931ab005',
+    other: {
+      'msvalidate.01': '9CE7A484A0C6E356F9896173F72F08D4'
+    }
+  },
   category: 'Games'
 }
 
