@@ -154,7 +154,8 @@ p {
 /* Drop down menu */
 .dropDown {
   @apply flex flex-col focus:outline-none;
-  @apply w-full;
+  @apply origin-top transition duration-200 ease-out data-closed:opacity-0;
+  @apply w-full h-dvh top-[var(--navbar-height)]! fixed!;
   @apply sm:w-50 sm:-translate-x-1;
 }
 
@@ -165,7 +166,7 @@ p {
 }
 
 .dropDownMask {
-  @apply bg-black/90 h-dvh md:h-0;
+  @apply bg-black/90 h-dvh md:h-0 pointer-events-none;
 }
 
 /* Links */
