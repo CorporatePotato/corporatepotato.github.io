@@ -33,8 +33,8 @@ export default async function Page({ params }: { params: Promise<{ locale: Suppo
     <main className="page" lang={locale}>
       <BannerImage />
       <Description />
-      <Features />
       <Trailer />
+      <Features />
       <FactSheet />
       <MediaKit />
       <Contact />

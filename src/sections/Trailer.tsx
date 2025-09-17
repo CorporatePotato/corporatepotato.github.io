@@ -7,11 +7,11 @@ import { useDictionary } from '@/context/dictionary-context'
 import { usePageContext } from '@/context/page-context'
 
 const TRAILER_VIDEO_IDS: Record<string, string> = {
-  en: '7XMdPQ5aW0s',
-  'zh-Hans': 'xyOzTgE4g0o',
-  'zh-Hant': 'dAMy1PvzrRc',
-  ja: 'oWPZJlE1uuA',
-  ko: '1NPZQ9KCGkY ',
+  'en-us': '7XMdPQ5aW0s',
+  'zh-hans': 'xyOzTgE4g0o',
+  'zh-hant': 'dAMy1PvzrRc',
+  'ja-jp': 'oWPZJlE1uuA',
+  'ko-kr': '1NPZQ9KCGkY',
   default: '7XMdPQ5aW0s'
 }
 
@@ -91,11 +91,12 @@ const Trailer = () => {
         />
       </div>
 
-      <Button onClick={handleCopy}>
+{/* Skipping the embed button for now */}
+{/*       <Button onClick={handleCopy}>
         {copied
           ? dict.trailer_copied_button || 'Copied!'
           : dict.trailer_copy_button || 'Copy Embed Code'}
-      </Button>
+      </Button> */}
     </section>
   )
 }
