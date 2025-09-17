@@ -27,14 +27,11 @@ export async function generateProjectMetadata(locale: SupportedLocale): Promise<
     description,
     applicationName: 'Well Keeper',
     openGraph: {
-      // TODO: Maybe change this value?
       type: 'website',
       siteName: 'Corporate Potato',
       title: ogTitle,
       description: ogDescription,
-      // TODO: Maybe remove this line?
       url: `/${locale}/well-keeper`,
-      // url: 'https://corporatepotato.com',
       images: [
         {
           url: `/assets/meta/og/og-${locale}.png`,
