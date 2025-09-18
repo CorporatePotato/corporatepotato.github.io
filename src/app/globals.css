@@ -152,7 +152,7 @@ p {
 /* Drop down menu */
 .dropDown {
   @apply flex flex-col focus:outline-none;
-  @apply origin-top transition duration-200 ease-out data-closed:opacity-0;
+  @apply origin-top transition duration-60 ease-out data-closed:opacity-0;
   @apply fixed! top-[var(--navbar-height)]! h-dvh w-full;
   @apply sm:w-50 sm:-translate-x-1;
 }
