@@ -30,14 +30,7 @@ const FactSheet = () => {
         </div>
       </div>
       <div className="flex flex-col items-center">
-        {/* TODO: Should this not also work as the 'Request key' link in the burger menu? */}
-{/*         <a className="button mt-2" href="#contact">
-          {dict.fact_sheet_request_key}
-        </a> */}
-               <button
-          onClick={() => handlePrefillClick('request-key')}
-          className="button mt-2"
-        >
+        <button onClick={() => handlePrefillClick('request-key')} className="button mt-2">
           {dict.fact_sheet_request_key}
         </button>
       </div>

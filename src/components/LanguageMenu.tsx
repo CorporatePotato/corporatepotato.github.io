@@ -4,6 +4,7 @@ import { useRef } from 'react'
 
 import { AVAILABLE_LOCALES, LANGUAGE_NAMES } from '@/constants/language'
 import { usePageContext } from '@/context/page-context'
+import { useIsMobile } from '@/hooks/useIsMobile'
 import { SupportedLocale } from '@/types/language'
 import { getCurrentLocale, storeLanguagePreference } from '@/utils/language'
 import { Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/react'
@@ -11,6 +12,8 @@ import { Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/react'
 export const LanguageMenu = () => {
   const router = useRouter()
   const pathname = usePathname()
+
+  const isMobile = useIsMobile()
 
   const languageMenuCloseRef = useRef<(() => void) | null>(null)
 
@@ -38,12 +41,11 @@ export const LanguageMenu = () => {
 
   return (
     <Menu className="h-full" as="div">
-      {({ close }) => {
+      {({ open, close }) => {
         languageMenuCloseRef.current = close
 
         return (
           <>
-            {/* Button */}
             <MenuButton
               className="nav h-full w-auto min-w-28 items-end text-right focus:outline-none"
               aria-label="Current language"
@@ -51,8 +53,12 @@ export const LanguageMenu = () => {
               {locale.toUpperCase()}
             </MenuButton>
 
-            {/* Drop down */}
-            <MenuItems anchor="top start" className="dropDown" modal={false}>
+            <MenuItems
+              anchor="top start"
+              className="dropDown"
+              modal={isMobile && open ? true : false}
+              transition
+            >
               {AVAILABLE_LOCALES.map((locale, i, arr) => (
                 <MenuItem key={i}>
                   {() => (
