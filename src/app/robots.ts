@@ -1,6 +1,6 @@
 import type { MetadataRoute } from 'next'
 
-export const dynamic = 'force-static' // This makes it work with next export
+export const dynamic = 'force-static'
 
 export default function robots(): MetadataRoute.Robots {
   return {
@@ -9,7 +9,8 @@ export default function robots(): MetadataRoute.Robots {
         userAgent: '*',
         allow: '/',
         disallow: '/private/'
-      }
+      },
+      { userAgent: 'GoogleBot', crawlDelay: 1 }
     ],
     sitemap: 'https://corporatepotato.com/sitemap.xml'
   }

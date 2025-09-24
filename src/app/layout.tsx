@@ -12,11 +12,6 @@ export const metadata: Metadata = {
   metadataBase: new URL(
     process.env.NODE_ENV === 'production' ? 'https://corporatepotato.com' : 'http://localhost:3000'
   ),
-  icons: {
-    icon: '/icons/favicon.ico',
-    shortcut: '/icons/favicon-32x32.png',
-    apple: '/icons/apple-touch-icon.png'
-  },
   robots: {
     index: true,
     follow: true
