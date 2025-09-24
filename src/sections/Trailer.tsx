@@ -1,8 +1,5 @@
 'use client'
 
-import { useState } from 'react'
-
-import Button from '@/components/Button'
 import { useDictionary } from '@/context/dictionary-context'
 import { usePageContext } from '@/context/page-context'
 
@@ -22,54 +19,10 @@ function getTrailerId(locale: string): string {
 const Trailer = () => {
   const { locale } = usePageContext()
 
-  const [copied, setCopied] = useState(false)
   const dict = useDictionary()
 
   const trailerId = getTrailerId(locale)
   const embedUrl = `https://www.youtube.com/embed/${trailerId}?controls=1`
-  const embedCode = `<iframe width="560" height="315" src="https://www.youtube.com/embed/${trailerId}?si=EQdqUiiC4tp_T-tK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`
-
-  const fallbackCopyTextToClipboard = (text: string) => {
-    const textArea = document.createElement('textarea')
-    textArea.value = text
-    Object.assign(textArea.style, {
-      position: 'fixed',
-      top: '0',
-      left: '0',
-      width: '2em',
-      height: '2em',
-      padding: '0',
-      border: 'none',
-      outline: 'none',
-      boxShadow: 'none',
-      background: 'transparent'
-    })
-    document.body.appendChild(textArea)
-    textArea.focus()
-    textArea.select()
-    try {
-      document.execCommand('copy')
-    } catch (err) {
-      console.error('Fallback: Unable to copy', err)
-    }
-    document.body.removeChild(textArea)
-  }
-
-  const handleCopy = async () => {
-    if (typeof navigator !== 'undefined' && navigator.clipboard) {
-      try {
-        await navigator.clipboard.writeText(embedCode)
-        setCopied(true)
-        setTimeout(() => setCopied(false), 2000)
-        return
-      } catch (err) {
-        console.error('Clipboard API failed, falling back', err)
-      }
-    }
-    fallbackCopyTextToClipboard(embedCode)
-    setCopied(true)
-    setTimeout(() => setCopied(false), 2000)
-  }
 
   return (
     <section
@@ -90,13 +43,6 @@ const Trailer = () => {
           allowFullScreen
         />
       </div>
-
-{/* Skipping the embed button for now */}
-{/*       <Button onClick={handleCopy}>
-        {copied
-          ? dict.trailer_copied_button || 'Copied!'
-          : dict.trailer_copy_button || 'Copy Embed Code'}
-      </Button> */}
     </section>
   )
 }

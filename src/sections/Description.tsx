@@ -1,8 +1,6 @@
 'use client'
 
 import { useDictionary } from '@/context/dictionary-context'
-import Link from 'next/link'
-import Image from 'next/image'
 
 const Description = () => {
   const dict = useDictionary()
@@ -21,7 +19,6 @@ const Description = () => {
             {dict.wishlist}
           </a>
         </div>
-
       </div>
     </section>
   )
