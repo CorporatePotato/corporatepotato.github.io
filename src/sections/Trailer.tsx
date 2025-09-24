@@ -18,7 +18,6 @@ function getTrailerId(locale: string): string {
 
 const Trailer = () => {
   const { locale } = usePageContext()
-
   const dict = useDictionary()
 
   const trailerId = getTrailerId(locale)
@@ -39,7 +38,7 @@ const Trailer = () => {
           src={embedUrl}
           title="YouTube video player"
           frameBorder="0"
-          allow="autoplay; encrypted-media; fullscreen; picture-in-picture"
+          allow="autoplay; encrypted-media; picture-in-picture"
           allowFullScreen
         />
       </div>
