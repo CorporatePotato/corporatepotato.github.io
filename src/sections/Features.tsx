@@ -6,7 +6,10 @@ import { useDictionary } from '@/context/dictionary-context'
 import { usePageContext } from '@/context/page-context'
 
 const localeToLanguageName: Record<string, string> = {
-  'zh-hans': 'ChineseSimplified'
+  'zh-hans': 'SChinese',
+  'zh-hant': 'TChinese',
+  'ja-jp': 'Japanese',
+  'ko-kr': 'Koreana'
 }
 
 interface FeatureVideoProps {

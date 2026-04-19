@@ -1,33 +1,29 @@
 {
   "metadata_titleDefault": "Well Keeper",
   "metadata_titleTemplate": "Press Kit",
-  "metadata_description": "Well Keeper is a Bullet Hell Shoot `Em Up game where you move by flapping. Battle waves of enemies, upgrade unique and unexpected abilities and become immensely powerful.",
+  "metadata_description": "A bullet hell roguelite where you move by flapping. Battle waves of enemies, upgrade unique and unexpected abilities and become immensely powerful!",
   "metadata_ogTitle": "Well Keeper - a game by Corporate Potato",
-  "metadata_ogDescription": "Well Keeper is a Bullet Hell Shoot `Em Up game where you move by flapping.",
+  "metadata_ogDescription": "Well Keeper is a bullet hell roguelite where you move by flapping.",
   "metadata_twitterTitle": "Well Keeper - a game by Corporate Potato",
-  "metadata_twitterDescription": "Well Keeper is a Bullet Hell Shoot `Em Up game where you move by flapping.",
+  "metadata_twitterDescription": "Well Keeper is a bullet hell roguelite where you move by flapping.",
   "metadata_images_alt": "Well Keeper key art and logo",
   "nav_features": "Features",
   "nav_trailer": "Trailer",
   "nav_factSheet": "Fact Sheet",
-  "nav_mediaKit": "Media Kit",
+  "nav_mediaKit": "Press Kit",
   "nav_about": "About",
   "nav_requestKey": "Request Key",
   "nav_contact": "Contact",
-  "description": "Well Keeper is a Bullet Hell Shoot `Em Up where you move by flapping. Battle waves of enemies, upgrade unique and unexpected abilities and become immensely powerful.",
-  "wishlist": "Wishlist on Steam",
+  "description": "A bullet hell roguelite where you move by flapping. Battle waves of enemies, upgrade unique and unexpected abilities and become immensely powerful!",
+  "wishlist": "Visit Steam page",
   "features_title": "Features",
   "features_body": [
     {
-      "title": "Distinctive Flap-Style Movement",
-      "text": "Master movement in this unique twist on the genre. You control a mouse that flaps its ears left or right — flap rapidly to gain height or slowly to descend. You can also dash sideways to dodge tricky projectiles. This elegant control scheme is easy to learn, yet offers expressive, skillful movement."
+      "title": "Flappy Bullet Hell",
+      "text": "Play as a lightning-charged mouse who flaps its ears to move. Fight increasingly difficult monsters with automatically fired bolts of lightning as your primary weapon. You'll be on the edge of your seat through 30 distinct waves across three levels. Each wave is unique and has a different attack, making every encounter tense, unpredictable, and packed with action."
     },
     {
-      "title": "Intense Bullet Hell",
-      "text": "Fight increasingly difficult enemy waves, each unique and with a different attack. You’ll be on the edge of your seat through 30 distinct waves across three levels. Every encounter is tense, unpredictable, and packed with action."
-    },
-    {
-      "title": "A Variety of Upgrades",
+      "title": "Powerful Upgrades",
       "text": "Collect coins from defeated enemies to upgrade 24 different properties and unique abilities called “Wishes.” These include powerful new weapons, economic effects, weapon modifiers, stat boosts, and more, fueling a strong progression curve."
     },
     {
@@ -37,6 +33,10 @@
     {
       "title": "Immense Power Trip",
       "text": "When defeated, you lose your coins and restart from the beginning of the level, but keep your acquired Wishes. This makes you more powerful each time you begin a new run, creating a thrilling sense of exponential domination."
+    },
+    {
+      "title": "Flap-Style Movement",
+      "text": "Flap left or right to move horizontally, and adjust your flapping speed to control altitude. You can also dash sideways to dodge tricky projectiles. This simple control scheme is easy to learn, yet offers expressive, skillful movement."
     }
   ],
   "trailer_title": "Trailer",
@@ -51,7 +51,7 @@
     },
     {
       "title": "Genre",
-      "content": "Shoot Em Up / Bullet Hell"
+      "content": "Bullet Hell, Roguelite"
     },
     {
       "title": "Platforms",
@@ -59,15 +59,15 @@
     },
     {
       "title": "Playtime",
-      "content": "4-6 hours"
+      "content": "4-5 hours"
     },
     {
       "title": "Price",
-      "content": "TBD"
+      "content": "$7.99"
     },
     {
       "title": "Release date",
-      "content": "TBD"
+      "content": "April 23, 2026"
     },
     {
       "title": "Developer",
@@ -82,9 +82,9 @@
       "content": "Stockholm, Sweden"
     }
   ],
-  "media_kit_title": "Media kit",
+  "media_kit_title": "Press kit",
   "mediaKit_intro": "Screenshots, videos, logos, and more can be downloaded here. All assets are free to use for press coverage, previews, and content creation related to Well Keeper. No attribution is required.",
-  "mediaKit_button": "Open media kit",
+  "mediaKit_button": "Open press kit",
   "contact_title": "Contact",
   "contact_intro": "Please use this contact form for any inquiries such as key requests, interview requests, or any other questions.",
   "contact_name": "Name",

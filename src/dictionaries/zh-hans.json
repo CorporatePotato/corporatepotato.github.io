@@ -1,11 +1,11 @@
 {
   "metadata_titleDefault": "渊井之佑",
   "metadata_titleTemplate": "新闻资料包",
-  "metadata_description": "Well Keeper 是一款弹幕射击游戏，采用飞翔摆动的操作方式。玩家可以升级独特的能力，变得强大无比，击退入侵者。",
+  "metadata_description": "一款弹幕 Roguelite 游戏，采用飞翔摆动的操作方式。玩家可以升级独特的能力，变得强大无比，击退入侵者！",
   "metadata_ogTitle": "渊井之佑 - Corporate Potato 出品",
-  "metadata_ogDescription": "Well Keeper 是一款弹幕射击游戏，采用飞翔摆动的操作方式。",
+  "metadata_ogDescription": "一款弹幕 Roguelite 游戏，采用飞翔摆动的操作方式。",
   "metadata_twitterTitle": "渊井之佑 - Corporate Potato 出品",
-  "metadata_twitterDescription": "Well Keeper 是一款弹幕射击游戏，采用飞翔摆动的操作方式。",
+  "metadata_twitterDescription": "一款弹幕 Roguelite 游戏，采用飞翔摆动的操作方式。",
   "metadata_images_alt": "渊井之佑关键美术与标志",
   "nav_features": "特色",
   "nav_trailer": "预告片",
@@ -14,20 +14,16 @@
   "nav_about": "关于我们",
   "nav_requestKey": "申请激活码",
   "nav_contact": "联系",
-  "description": "Well Keeper 是一款弹幕射击游戏，采用飞翔摆动的操作方式。玩家可以升级独特的能力，变得强大无比，击退入侵者。",
-  "wishlist": "Steam愿望单",
+  "description": "一款弹幕 Roguelite 游戏，采用飞翔摆动的操作方式。玩家可以升级独特的能力，变得强大无比，击退入侵者！",
+  "wishlist": "访问 Steam 页面",
   "features_title": "特色",
   "features_body": [
     {
-      "title": "独特的扇动式移动",
-      "text": "掌握这个独具特色的操作方式吧。你操控一只小飞鼠，通过左右扇动耳朵来飞行——快速扇动可以上升，缓慢扇动则会下降。你还可以横向冲刺，躲避棘手的弹幕。这个优雅的操作机制容易上手，却能展现丰富且灵活的操作技巧。"
+      "title": "扑腾的弹幕地狱",
+      "text": "化身为一只充满闪电的老鼠，靠拍打耳朵来移动。用自动发射的闪电作为主要武器，对抗越来越强大的怪物。你将在三个关卡的30个波次中全程紧张激战。每一波都有独特的攻击方式，让每次战斗都充满紧张感、不可预测性和动作张力。"
     },
     {
-      "title": "惊心动魄的弹幕地狱",
-      "text": "你将面对难度逐渐提升、各具特色的敌人波次。在三个关卡的30个波次中，体验紧张刺激且充满变化的战斗。每一次遭遇都极具挑战性、节奏激烈。"
-    },
-    {
-      "title": "丰富的升级系统",
+      "title": "强力升级系统",
       "text": "击败敌人后可收集银币，强化多达 24 种被称为“愿望”的特殊能力。愿望包含强力的新武器、经济收益、武器强化、属性提升等多种效果，构建出令人满足的成长曲线。"
     },
     {
@@ -37,6 +33,10 @@
     {
       "title": "强力的成长旅程",
       "text": "每次游戏开始时，你将获得已解锁的“愿望”加持，轻松击败前几波敌人。失败时，你会失去银币和关卡进度，但愿望依旧保留，给每一次尝试带来指数级的强大快感。"
+    },
+    {
+      "title": "扇动式移动",
+      "text": "你操控一只小飞鼠，通过左右扇动耳朵来飞行——快速扇动可以上升，缓慢扇动则会下降。你还可以横向冲刺，躲避棘手的弹幕。这个优雅的操作机制容易上手，却能展现丰富且灵活的操作技巧。"
     }
   ],
   "trailer_title": "预告片",
@@ -51,7 +51,7 @@
     },
     {
       "title": "游戏类型",
-      "content": "弹幕射击 / Shoot Em Up"
+      "content": "弹幕, Roguelite"
     },
     {
       "title": "游戏平台",
@@ -59,15 +59,15 @@
     },
     {
       "title": "游戏时长",
-      "content": "4-6 小时"
+      "content": "4-5 小时"
     },
     {
       "title": "价格",
-      "content": "待定"
+      "content": "¥ 29.00"
     },
     {
       "title": "发行日期",
-      "content": "待定"
+      "content": "2026 年 4 月 23 日"
     },
     {
       "title": "开发者",
