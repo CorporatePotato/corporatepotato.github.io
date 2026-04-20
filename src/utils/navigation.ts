@@ -1,8 +1,8 @@
 import { NavItem } from '@/types/navigation'
 
 export const navigationItems: NavItem[] = [
-  { key: 'nav_features', href: '#features' },
   { key: 'nav_trailer', href: '#trailer' },
+  { key: 'nav_features', href: '#features' },
   { key: 'nav_factSheet', href: '#fact-sheet' },
   { key: 'nav_mediaKit', href: '#media-kit' },
   { key: 'nav_requestKey', href: '#contact' },

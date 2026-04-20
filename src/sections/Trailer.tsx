@@ -4,12 +4,12 @@ import { useDictionary } from '@/context/dictionary-context'
 import { usePageContext } from '@/context/page-context'
 
 const TRAILER_VIDEO_IDS: Record<string, string> = {
-  'en-us': '7XMdPQ5aW0s',
-  'zh-hans': 'xyOzTgE4g0o',
-  'zh-hant': 'dAMy1PvzrRc',
-  'ja-jp': 'oWPZJlE1uuA',
-  'ko-kr': '1NPZQ9KCGkY',
-  default: '7XMdPQ5aW0s'
+  'en-us': 'zGMo4SDj8Hw',
+  'zh-hans': 'zGMo4SDj8Hw',
+  'zh-hant': 'zGMo4SDj8Hw',
+  'ja-jp': 'zGMo4SDj8Hw',
+  'ko-kr': 'zGMo4SDj8Hw',
+  default: 'zGMo4SDj8Hw'
 }
 
 function getTrailerId(locale: string): string {

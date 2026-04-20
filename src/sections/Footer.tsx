@@ -102,7 +102,7 @@ export default function Footer() {
         <div className="text-lightGrey">
           <p className="mt-10 text-center text-sm/6">{dict.footer_disclaimer}</p>
           <p className="mt-10 text-center text-sm/6">
-            &copy; 2025 Corporate Potato. {dict.footer_rights || 'All rights reserved.'}
+            &copy; 2026 Corporate Potato. {dict.footer_rights || 'All rights reserved.'}
           </p>
         </div>
       </div>

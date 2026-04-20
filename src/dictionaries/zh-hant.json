@@ -1,11 +1,11 @@
 {
   "metadata_titleDefault": "淵井之佑",
   "metadata_titleTemplate": "新聞資料包",
-  "metadata_description": "Well Keeper 是一款彈幕射擊遊戲，採用飛翔擺動的操作方式。玩家可以升級獨特的能力，變得強大無比，擊退入侵者。",
+  "metadata_description": "一款彈幕 Roguelite 遊戲，採用飛翔擺動的操作方式。玩家可以升級獨特的能力，變得強大無比，擊退入侵者！",
   "metadata_ogTitle": "淵井之佑 - Corporate Potato 出品",
-  "metadata_ogDescription": "Well Keeper 是一款彈幕射擊遊戲，採用飛翔擺動的操作方式。",
+  "metadata_ogDescription": "一款彈幕 Roguelite 遊戲，採用飛翔擺動的操作方式。",
   "metadata_twitterTitle": "淵井之佑 - Corporate Potato 出品",
-  "metadata_twitterDescription": "Well Keeper 是一款彈幕射擊遊戲，採用飛翔擺動的操作方式。",
+  "metadata_twitterDescription": "一款彈幕 Roguelite 遊戲，採用飛翔擺動的操作方式。",
   "metadata_images_alt": "淵井之佑關鍵美術與標誌",
   "nav_features": "特色",
   "nav_trailer": "預告片",
@@ -14,20 +14,16 @@
   "nav_about": "關於我們",
   "nav_requestKey": "申請啟動碼",
   "nav_contact": "聯絡",
-  "description": "Well Keeper 是一款彈幕射擊遊戲，採用飛翔擺動的操作方式。玩家可以升級獨特的能力，變得強大無比，擊退入侵者。",
-  "wishlist": "Steam願望清單",
+  "description": "一款彈幕 Roguelite 遊戲，採用飛翔擺動的操作方式。玩家可以升級獨特的能力，變得強大無比，擊退入侵者！",
+  "wishlist": "訪問 Steam 頁面",
   "features_title": "特色",
   "features_body": [
     {
-      "title": "獨特的扇動式移動",
-      "text": "掌握這個獨具特色的操作方式吧。你操控一隻小飛鼠，透過左右扇動耳朵來飛行——快速扇動可以上升，緩慢扇動則會下降。你還可以側向衝刺，躲避棘手的彈幕。這個優雅的操作機制容易上手，卻能展現豐富且靈活的操作技巧。"
+      "title": "撲騰的彈幕地獄",
+      "text": "化身為一隻充滿閃電的老鼠，靠拍打耳朵來移動。以自動發射的閃電作為主要武器，對抗愈發強大的怪物。你將在三個關卡的30個波次中全程緊張對戰。每一波都有獨特的攻擊方式，使每場戰鬥都既緊湊又充滿變化與張力。"
     },
     {
-      "title": "驚險刺激的彈幕地獄",
-      "text": "你將面對難度逐漸提升、各具特色的敵人波次。在三個關卡的30個波次中，體驗緊張刺激且充滿變化的戰鬥。每一次遭遇都極具挑戰性、節奏激烈。"
-    },
-    {
-      "title": "豐富的升級系統",
+      "title": "強力升級系統",
       "text": "擊敗敵人後可收集銀幣，強化多達 24 種被稱為「願望」的特殊能力。願望包含強力的新武器、經濟收益、武器強化、屬性提升等多種效果，構築出令人滿足的成長曲線。"
     },
     {
@@ -37,6 +33,10 @@
     {
       "title": "強力的成長旅程",
       "text": "每次遊戲開始時，你都會獲得已解鎖的「願望」加持，輕鬆擊退前幾波敵人。失敗時，你會失去銀幣和關卡進度，但「願望」依舊保留，讓每一次嘗試都能體驗到指數級成長的快感。"
+    },
+    {
+      "title": "扇動式移動",
+      "text": "你操控一隻小飛鼠，透過左右扇動耳朵來飛行——快速扇動可以上升，緩慢扇動則會下降。你還可以側向衝刺，躲避棘手的彈幕。這個優雅的操作機制容易上手，卻能展現豐富且靈活的操作技巧。"
     }
   ],
   "trailer_title": "預告片",
@@ -47,27 +47,27 @@
   "fact_sheet_items": [
     {
       "title": "遊戲名稱",
-      "content": "渊井之佑"
+      "content": "淵井之佑"
     },
     {
       "title": "遊戲類型",
-      "content": "彈幕射擊 / Shoot Em Up"
+      "content": "彈幕, Roguelite"
     },
     {
-      "title": "游戏平台",
+      "title": "遊戲平台",
       "content": "Steam（PC 與 Steam Deck）"
     },
     {
       "title": "遊戲時長",
-      "content": "4-6 小時"
+      "content": "4-5 小時"
     },
     {
       "title": "價格",
-      "content": "待定"
+      "content": "NT$ 112"
     },
     {
       "title": "發行日期",
-      "content": "待定"
+      "content": "2026 年 4 月 23 日"
     },
     {
       "title": "開發者",
