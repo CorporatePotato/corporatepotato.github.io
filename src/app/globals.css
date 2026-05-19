@@ -7,6 +7,9 @@
   --color-lightGrey: #7c8183;
   --color-darkGrey: #242a2e;
   --color-black: #14181a;
+
+/* Breakpoints */
+  --breakpoint-lg: 70rem;
 }
 
 :root {
@@ -15,13 +18,7 @@
   --navbar-height: 3.2rem;
 }
 
-@media (min-width: 640px) {
-  :root {
-    --navbar-height: 3.2rem;
-  }
-}
-
-@media (min-width: 1024px) {
+@media (min-width: 70rem) {
   :root {
     --navbar-height: 4rem;
   }

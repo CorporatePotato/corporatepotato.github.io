@@ -13,7 +13,7 @@ export default function Header() {
 
   return (
     <nav className="bg-darkGrey fixed top-0 right-0 left-0 z-50 border-b-4 border-black duration-300">
-      <div className="mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="mx-auto px-4 sm:px-8 lg:px-8">
         <div className="header" style={{ height: 'var(--navbar-height)' }}>
           {/* Company logo */}
           <div className="mt-1 flex shrink-0 items-center">
